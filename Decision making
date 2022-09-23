@@ -102,3 +102,132 @@ elif y<x and y<z:
         print('L2 has the minimal seating capacity')
 else:
     print('L3 has the minimal seating capacity')
+    
+    
+    8.Gardening
+    
+    a=int(input())
+r=int(input())
+p=int(input())
+if p>=1 and p<=a:
+    print("yes")
+elif p%r==0:
+    print("yes")
+elif p%r==1:
+    print("yes")
+else:
+    print("no")
+    
+    9.Hotel Tariff Calculator
+    
+    a=int(input())
+b=float(input())
+c=int(input())
+if a>=0 and a<=12:
+    if a in [4,5,6,11,12]:
+        print('Hotel Tariff : Rs.','%.2f' %(1.2*b*c))
+    else:
+        print('Hotel Tariff : Rs.','%.2f'%(b*c))
+else:
+    print('Invalid input')
+    
+    
+    10.RGY Lights
+    
+    p=float(input())
+q=float(input())
+r=float(input())
+if p>r:
+    print('yes')
+else:
+    print('no')
+
+
+11.Budget
+
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+f=a*350.34
+g=b*230.90
+h=c*190.55
+i=d*125.30
+j=e*180.90
+k=(f+g+h+i+j)
+if k<=15000:
+    print("yes")
+else:
+    print("no")
+    
+    
+    12.Sece Dining
+    
+    a=str(input())
+b=int(input())
+if (a=='front' and b==1) or (a=='rear' and b==2):
+    print('Left Handed')
+else:
+    print('Right Handed')
+    
+    
+    13.Intersection of a Circle
+    
+    x1=int(input())
+y1=int(input())
+r1=int(input())
+x2=int(input())
+y2=int(input())
+r2=int(input())
+d=((((x1-x2)**2)+((y1-y2)**2))**(1/2))
+if(r1+r2)==d:
+    print("The circles are tangential")
+elif(r1+r2)>d:
+    print("The circles overlap")
+else:
+    print("The circles do not overlap")
+    
+    
+    14.Microwave Oven
+    
+    p=int(input('Enter the number of items\n'))
+q=float(input('Enter the single item heating time\n'))
+if p==1:
+    print(f'The recommended heating time is','%.2f' %{q})
+elif p==2:
+    print('The recommended heating time is','%.2f' %((1.5)*q))
+elif p==3:
+    print('The recommended heating time is','%.2f' %(2*q))
+else:
+    print('Number of items is more')
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
